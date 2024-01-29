@@ -105,6 +105,7 @@ class NaverMap {
             const mapPoint = new naver.maps.Point(x, y);
 
             const mapCoord = projection.fromOffsetToCoord(mapPoint);
+            console.log(mapCoord);
             this.map?.setCenter(mapCoord);
         }
     }

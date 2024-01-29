@@ -234,6 +234,11 @@ class ThreeMap {
 
         // NaverMap 좌표로 변환
         this.naverMap.setCenter(intersectionPoint.x, intersectionPoint.z);
+        console.log(
+            'intersectionPoint.x, intersectionPoint.z',
+            intersectionPoint.x,
+            intersectionPoint.z
+        );
     }
 
     public destroy() {
